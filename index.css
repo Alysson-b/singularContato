@@ -18,6 +18,8 @@ body img{
    opacity: 0.7;
 }
 body{
+     background: url(./assets/Rectangle\ 1.png);
+    object-fit: cover;
     overflow: hidden;
 } 
 
@@ -27,8 +29,6 @@ body{
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background: url(./assets/_consultorio_.jpg);
-     object-fit: cover;
 }
 
 .title{
