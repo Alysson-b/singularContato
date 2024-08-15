@@ -17,10 +17,9 @@
 body img{
    opacity: 0.7;
 }
- body{
-   background: url(./assets/_consultorio_.jpg) no-repeat left/cover;
+body{
     overflow: hidden;
-     object-fit: cover;
+    object-fit: cover;
 } 
 
     
@@ -29,7 +28,7 @@ body img{
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    /*  background-image: url(./assets/_consultorio_.jpg) ; */
+    background-image: url(./assets/_consultorio_.jpg) ; 
 }
 
 .title{
