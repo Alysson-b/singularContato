@@ -12,6 +12,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+@media (max-width: 720px) {
+    
 body img{
    opacity: 0.7;
 }
@@ -19,7 +21,7 @@ body{
     background: url(./assets/Rectangle\ 1.png);
     overflow: hidden;
 }
-@media (max-width: 720px) {
+
     
 .container{
     display: flex;
