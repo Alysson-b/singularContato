@@ -8,12 +8,15 @@ const page2 = document.querySelector('.section2')
 const page3 = document.querySelector('.section3')
 const page4 = document.querySelector('.section4')
 const msgWhats = document.querySelector('#Whatsapp')
+const divName = document.querySelector(".name-user")
+const inputName = document.createElement('h2')
 
 next.addEventListener('click', function(e){
    e.preventDefault();
    
    const name = document.querySelector('.name').value.trim()
    const number = document.querySelector('.whats').value.trim()
+
    message.innerHTML = "";
 
    if(name === "" || number === "" ){
@@ -22,12 +25,19 @@ next.addEventListener('click', function(e){
    }
    else if(isNaN(number) || number.length < 10){ 
       message.innerHTML = "Numero inválido."
-       message.style.color = '#ff4545'
+      message.style.color = '#ff4545'
    }
    else{
+      inputName.textContent = name;
+      divName.innerHTML = "";
+      divName.appendChild(inputName)
 
+      
       page1.style.display = "none"
       page2.style.display = "flex"
+      
+
+
    }
    div.appendChild(message)
 })

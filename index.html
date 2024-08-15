@@ -16,10 +16,10 @@
         <div class="login">
             <p>Por favor, Insira seus Dados:</p>
             <label for="user">Nome</label>
-            <input class="name" name="user" type="text" placeholder="Digite seu nome">
+            <input class="name" name="user" type="text" placeholder="Digite seu nome" minlength="4" maxlength="10">
             <br>
             <label for="number">Whatsapp</label>
-            <input class="whats" type="number" placeholder="(xx) xxxx-xxxx">
+            <input class="whats" type="tel"  pattern="\(\d{2}\) \d{5}-\d{4}" placeholder="(xx) xxxxx-xxxx" maxlength="14">
             <div class="line"></div>
 
             <div class="button">
@@ -32,7 +32,7 @@
     <section class="section2">
             <div class="box">
             <div class="message">
-                <h2 class="name-user"></h2>
+                <div class="name-user"></div>
         <div class="message-text">
                     <p>Voçê possui um agendamento em:</p>
                 <div class="information">
