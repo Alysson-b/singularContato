@@ -18,8 +18,9 @@ body img{
    opacity: 0.7;
 }
  body{
-    background: url(./assets/Rectangle\ 1.png);
+   background: url(./assets/_consultorio_.jpg) no-repeat left/cover;
     overflow: hidden;
+     object-fit: cover;
 } 
 
     
@@ -28,7 +29,7 @@ body img{
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url(./assets/_consultorio_.jpg) ;
+    /*  background-image: url(./assets/_consultorio_.jpg) ; */
 }
 
 .title{
