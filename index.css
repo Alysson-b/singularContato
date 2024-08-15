@@ -28,7 +28,7 @@ body img{
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    /*  background-image: url(./assets/_consultorio_.jpg) ; */
+    background-image: url(./assets/_consultorio_.jpg) ;
 }
 
 .title{
