@@ -14,7 +14,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ## 📌 Layout
-![](./assets/WhatsApp%20Image%202024-08-15%20at%2001.41.44.jpeg)
+<img  width=300px src="./assets/WhatsApp Image 2024-08-15 at 01.41.44.jpeg" alt="">
+
 
 # Desenvolvedores
 
