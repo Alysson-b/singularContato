@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <img class="img-sing" src="./assets/name.png" alt="">
+        </div>
+<section class="section1">
+        <div class="login">
+            <p>Por favor, Insira seus Dados:</p>
+            <label for="user">Nome</label>
+            <input class="name" name="user" type="text" placeholder="Digite seu nome">
+            <br>
+            <label for="number">Whatsapp</label>
+            <input class="whats" type="number" placeholder="(xx) xxxx-xxxx">
+            <div class="line"></div>
+
+            <div class="button">
+                <button class="btn-next">Avançar</button>
+            </div>
+    </div>
+</section>
+        
+
+    <section class="section2">
+            <div class="box">
+            <div class="message">
+                <h2 class="name-user"></h2>
+        <div class="message-text">
+                    <p>Voçê possui um agendamento em:</p>
+                <div class="information">
+                    <input class="datetime" type="datetime-local">
+                    <p>Modalidade:<span>Presecial</span></p>
+                </div>
+                <h2 class="text-h2">clinica Singular</h2>
+                <p class="text-p">Avenida Barão de Studart, 1000 - Sala 1202</p>
+            </div>
+        </div>
+            <div class="confirmation">
+                <p>Podemos confimar sua Consulta?</p>
+                <div class="bottoes">
+                    <button onclick="confirmar()" class="btn-confirmar">Confirmar</button>
+                    <button class="btn-Reagendar">Reagendar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="bot-span">
+            <p>Agradecemos</p>
+            <p>a confirmação!</p>
+            <span><i class='bx bx-chevron-down-square' style='color:#18ec4e' ></i></span>
+        </div>
+    </section>
+
+    <section class="section4">
+    <div class="bot-reagendar">
+        <p class="end-paragraf">Entendemos que imprevistos</p>
+        <p class="end-paragraf">acontecem...</p>
+        
+    <div class="reagendar">
+            <h2>Fale com a nossa equipe para</h2>
+            <h2>reagendar sua sessão.</h2>
+    <div class="solicitar">
+        <button id="Whatsapp"><p>Solicitar nova data... <i class='bx bxl-whatsapp' style='color:#026b22' ></i></p></button>
+    </div>
+    </div>
+    </div>
+    </section>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
